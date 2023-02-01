@@ -141,7 +141,7 @@ formEl[4].oninput = ()=>{
 
     // final validation on clicking the submit button
 
-    const validateForm = (event)=>{
+    const validateForm = ()=>{
         event.preventDefault();
 
         let signup_valid =document.getElementById("signup-valid");
