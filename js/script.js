@@ -21,11 +21,11 @@ let hotPick2 = document.getElementById("hotPick2");
 
 
 newsPost1.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/news1.html";
+    window.location.href = "/news1.html";
 });
 
 newsPost2.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/news2.html";
+    window.location.href = "/news2.html";
 });
 
 newsPost3.addEventListener('click',()=>{
