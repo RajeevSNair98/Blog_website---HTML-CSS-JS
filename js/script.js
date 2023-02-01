@@ -25,7 +25,7 @@ newsPost1.addEventListener('click',()=>{
 });
 
 newsPost2.addEventListener('click',()=>{
-    window.location.href = "/news2.html";
+    window.location.href = "news2.html";
 });
 
 newsPost3.addEventListener('click',()=>{
