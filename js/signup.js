@@ -160,15 +160,16 @@ formEl[4].oninput = ()=>{
         if(formEl[0].oninput()==true && formEl[1].oninput()==true && formEl[2].oninput()==true && formEl[3].oninput()==true && formEl[4].oninput() == true){
         console.log(storedData);
         success_box.classList.remove("d-none");
-        success_box.innerHTML = `Hey ${formEl[0].value}, your signup is successful &#128512 &#128525`
-        signup_valid.style.background = "radial-gradient(circle at 10% 20%, rgb(43, 199, 188) 0%, rgb(219, 249, 203) 72.9%)"
+        success_box.innerHTML = `Hey ${formEl[0].value}, your signup is successful &#128512 &#128525`;
+        signup_valid.style.background = "radial-gradient(circle at 10% 20%, rgb(43, 199, 188) 0%, rgb(219, 249, 203) 72.9%)";
+            return true;
         }else if(formEl[0].oninput().value == "" || formEl[1].oninput().value == "" || formEl[2].oninput().value == "" || formEl[3].oninput().value == "" || formEl[4].oninput().value == "" ){
             formEl[0].style.border = "3px solid #ff0000";
             formEl[1].style.border = "3px solid #ff0000";
             formEl[2].style.border = "3px solid #ff0000";
             formEl[3].style.border = "3px solid #ff0000";
             formEl[4].style.border = "3px solid #ff0000";
-            
+            return false;
         }
     } 
 
