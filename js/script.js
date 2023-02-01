@@ -19,63 +19,66 @@ let trending4 = document.getElementById("trending4");
 let hotPick1 = document.getElementById("hotPick1");
 let hotPick2 = document.getElementById("hotPick2");
 
+newsPost1.addEventListener('click',()=>{
+    window.location.href = "news1.html";
+});
 
 newsPost2.addEventListener('click',()=>{
     window.location.href = "news2.html";
 });
 
 newsPost3.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/news3.html";
+    window.location.href = "news3.html";
 });
 
 newsPost4.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/news4.html";;
+    window.location.href = "news4.html";;
 });
 
 newsPost5.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/news5.html";
+    window.location.href = "news5.html";
 });
 
 newsPost6.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/news6.html";
+    window.location.href = "news6.html";
 });
 
 newsPost7.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/news7.html";
+    window.location.href = "news7.html";
 });
 
 newsPost8.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/news8.html";
+    window.location.href = "news8.html";
 });
 
 
 // Redirecting individual blogs to their respective contents (inside Trending blog section)
 
 trending1.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/trending1.html";
+    window.location.href = "trending1.html";
 });
 
 trending2.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/trending2.html";
+    window.location.href = "trending2.html";
 });
 
 trending3.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/trending3.html";
+    window.location.href = "trending3.html";
 });
 
 trending4.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/trending4.html";
+    window.location.href = "trending4.html";
 });
 
 
 // Redirecting individual blogs to their respective contents (inside hot-picks blog section)
 
 hotPick1.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/hotpick1.html";
+    window.location.href = "hotpick1.html";
 });
 
 hotPick2.addEventListener('click',()=>{
-    window.location.href = "http://127.0.0.1:5500/hotpick2.html";
+    window.location.href = "hotpick2.html";
 });
 
 
