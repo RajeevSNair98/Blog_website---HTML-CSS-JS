@@ -20,10 +20,6 @@ let hotPick1 = document.getElementById("hotPick1");
 let hotPick2 = document.getElementById("hotPick2");
 
 
-newsPost1.addEventListener('click',()=>{
-    window.location.href = "news1.html";
-});
-
 newsPost2.addEventListener('click',()=>{
     window.location.href = "news2.html";
 });
