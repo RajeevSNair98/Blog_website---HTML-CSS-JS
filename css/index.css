@@ -1,0 +1,159 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+a{
+    
+    text-decoration: none;
+    list-style: none !important;
+}
+
+button{
+    border-radius: 1rem !important;
+    margin-left: 5px !important;
+    border: none;
+}
+
+/* navbar starts */
+
+.btn-1{
+    background-color: white !important;
+    color: black !important;
+    border-color: rgb(130, 199, 231) !important;
+    border-radius: 1rem !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin: 10px !important;
+}
+
+.btn-1:hover{
+    background-color:rgb(124, 198, 241) !important;
+}
+
+/* navbar ends */
+
+
+
+/* title card starts */
+
+.card1{
+    border-color: white !important;
+}
+
+.card1 img{
+    height: 230px;
+    
+}
+
+.card1-content{
+    left: 22px !important;
+    top: 60px !important;
+    color: white;
+}
+
+/* title card ends */
+
+
+
+/* heading starts */
+
+.heading1 h4{
+    font-weight: 700;
+}
+
+hr{
+    border: 2px solid rgb(11, 145, 241) !important;
+}
+
+/* heading ends */
+
+
+
+/* blog section starts */
+
+.blog .row .post{
+    font-size: 1rem;
+}
+
+.blog .row .post .row .post1 h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.blog .row .post .row .post1{
+    cursor: pointer;
+}
+
+.blog .row .post .row .post1 small{
+    font-weight: 600;
+    border-radius: 2rem;
+}
+
+.post1 img{
+    height: 300px;
+}
+
+.post1:hover{
+    background-color: rgb(167, 230, 230);
+}
+
+
+
+/* blog section ends */
+
+
+
+
+/* Trending and hot picks section starts */
+
+
+
+.side2 h4{
+    font-weight: bold;
+}
+
+.sidebar .side2 .row{
+    background-color: rgb(204, 240, 246);
+    cursor: pointer;
+}
+
+.sidebar .side2 .row .sidetext a{
+    text-decoration: none;
+    color: grey;
+} 
+
+
+.sidebar .side2 .row :hover{
+    background-color:  rgb(167, 230, 230);
+}
+
+.sidebar .side2 .row .sidetext h6{
+    font-weight: 600;
+    border-radius: 2rem;
+}
+
+
+.side3 .one :hover{
+    background-color:  rgb(167, 230, 230);
+}
+
+.side3 .one {
+    cursor: pointer;
+}
+
+.side3 .one .text h5{
+    font-weight: 700;
+}
+
+.side3 h4{
+    font-weight: bold;
+}
+
+.side3 .one{
+    background-color: rgb(167, 208, 225);
+}
+
+
+/* Trending and hot picks section ends */
+
+

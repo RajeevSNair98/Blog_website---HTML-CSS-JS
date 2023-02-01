@@ -1,0 +1,56 @@
+
+
+/* navbar starts */
+
+.btn-1{
+    background-color: white !important;
+    color: black !important;
+    border-color: rgb(130, 199, 231) !important;
+    border-radius: 1rem !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin: 10px !important;
+}
+
+.btn-1:hover{
+    background-color:rgb(124, 198, 241) !important;
+}
+
+/* navbar ends */
+
+
+/* sign-in section starts */
+
+.sign-in{
+    /* padding: 2px; */
+    background-color: rgb(221, 221, 236);
+    border-radius: 1.4rem;
+}
+
+form{
+    padding: 65px;
+    border-radius: 1.4rem;
+}
+
+
+.submit-btn{
+    color: white !important;
+    background-color: rgb(84, 221, 84) !important;
+}
+
+.submit-btn:hover{
+    background-color: rgb(38, 183, 98) !important;
+    
+}
+
+
+.sign-in .row .mid-row h4{
+    background-color: rgb(228, 42, 42);
+     border-radius: 3rem;
+}
+
+.sign-in .row .mid-row form{
+    color: antiquewhite;
+}
+
+/* sign-in section ends */

@@ -1,0 +1,65 @@
+
+/* navbar starts */
+
+.btn-1{
+    background-color: white !important;
+    color: black !important;
+    border-color: rgb(130, 199, 231) !important;
+    border-radius: 1rem !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin: 10px !important;
+}
+
+.btn-1:hover{
+    background-color:rgb(124, 198, 241) !important;
+}
+
+/* navbar ends */
+
+
+/* signup form starts */
+
+.sign-up{
+    padding: 20px;
+    background-color: rgb(221, 221, 236);
+    border-radius: 1.4rem;
+}
+
+.sign-up .valid{
+    background-color: rgb(49, 49, 91);
+}
+
+.sign-up .row .row-2 h4{
+    background-color: rgb(71, 228, 105);
+     border-radius: 3rem;
+}
+
+.sign-up .row .row-2 form{
+    color: antiquewhite;
+}
+
+form{
+    padding: 995px;
+    border-radius: 1.4rem;
+}
+
+
+.submit-btn{
+    color: white !important;
+    background-color: rgb(84, 221, 84) !important;
+    border-radius: 1rem !important;
+}
+
+.submit-btn:hover{
+    background-color: rgb(38, 183, 98) !important;
+    
+}
+
+input{
+    height: 30px !important;  
+    border-radius: 3rem !important;  
+}
+
+
+/* signup form ends */

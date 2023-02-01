@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/news1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+       <!-- navbar starts -->
+    
+       <nav class="navbar bg-body-tertiary d-flex container">
+
+        <!-- logo -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/logo/blog-solid.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            The tech blog
+          </a>
+
+          <!-- login and signup links -->
+          <div class="d-grid gap-2 d-md-block d-flex">
+            <a href="index.html"><button class="btn btn-primary btn-1" type="button">Back to home page</button></a>
+            <a href="signup.html"><button class="btn btn-primary btn-1" type="button">Get started</button></a>
+            <!-- <a href="index.html"><button class="btn btn-primary btn-1" type="button">Home page</button></a> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar ends -->
+
+
+      <!-- blog starts -->
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="news-items">
+                    <div class="heading">
+                        <h2 style="font-weight: 900;">Picasso: How to Test a Component Library</h2>
+                        <small style="font-weight: 600;  border-radius: 2rem;" class="p-1 bg-info">Rajeev S Nair</small><br><br>
+                    </div>
+                    <div class="news-blog">
+                      <div class="news-image text-center">
+                        <img class="img-fluid"  src="./assets/images/techimg5.jpg" alt="techimg5">
+                      </div>
+                      <div class="news-content px-2 py-5">
+                      
+                       <h4 style="font-size: larger; letter-spacing: 0.7px;">
+                        Testing can be a daunting task even for experienced teams with an abundance of resources. How do Toptal developers write tests and what do they use? In this article, Toptal React Developer Boris Yordanov introduces you to Picasso, a component library designed by our developers for in-house use.
+                        <br><br>
+                        Visual regressions are particularly difficult to spot with manual testing. For example, if a button’s label is moved by 1px, will a QA engineer even notice? Thankfully, there are many solutions to this problem of limited visibility. You can opt for enterprise-grade all-in-one solutions such as LambdaTest or Mabl. You can incorporate plugins, like Percy, into your existing tests, as well as DIY solutions from the likes of Loki or Storybook (which is what we used prior to Picasso). They all have drawbacks: Some are too expensive while others have a steep learning curve or require too much maintenance.
+                         <br><br>
+                         Happo to the rescue! It’s a direct competitor to Percy, but it’s much cheaper, supports more browsers, and is easier to use. Another big selling point? It supports Cypress integration, which was important because we wanted to move away from using Storybook for visual testing. We found ourselves in situations where we had to create stories just so we could ensure visual test coverage, not because we needed to document that use case. That polluted our docs and made them more difficult to understand. We wanted to isolate visual testing from visual documentation.
+                         <br><br>
+                         The setup described here is far from perfect, but it’s a good starting point for those of you adventurous enough to create a component library. I’ve read a lot about testing pyramids, but it’s not always easy to apply them in practice. Therefore, I invite you to explore our codebase and learn from our mistakes and successes.
+                        </h4>
+                        <br><br>
+                       </p> 
+                      </div>
+                    </div>      
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+      </div>
+
+      <!-- blog ends -->
+
+
+         <!-- footer section starts -->
+
+         <footer class="bg-dark py-5 mt-5">
+          <div class="container text-light text-center">
+            <h4>The tech blog</h4>
+            <p class="text-white-50">&copy; Copyright by Rajeev S Nair. All rights reserved.</p>
+          </div>
+        </footer>
+  
+        <!-- footer section ends -->
+
+
+</body>
+</html>

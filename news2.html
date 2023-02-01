@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/news1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+       <!-- navbar starts -->
+    
+       <nav class="navbar bg-body-tertiary d-flex container">
+
+        <!-- logo -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/logo/blog-solid.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            The tech blog
+          </a>
+
+          <!-- login and signup links -->
+          <div class="d-grid gap-2 d-md-block d-flex">
+            <a href="index.html"><button class="btn btn-primary btn-1" type="button">Back to home page</button></a>
+            <a href="signup.html"><button class="btn btn-primary btn-1" type="button">Get started</button></a>
+            <!-- <a href="index.html"><button class="btn btn-primary btn-1" type="button">Home page</button></a> -->
+          </div>
+        </div>
+      </nav>
+
+        <!-- navbar ends -->
+
+
+      <!-- blog starts -->
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="news-items">
+                    <div class="heading">
+                        <h2 style="font-weight: 900;">Unit Testing in Flutter: From Workflow Essentials to Complex Scenarios</h2>
+                        <small style="font-weight: 600;  border-radius: 2rem;" class="p-1 bg-info">Rajeev S Nair</small><br><br>
+                    </div>
+                    <div class="news-blog">
+                      <div class="news-image text-center">
+                        <img class="img-fluid"  src="./assets/images/techimg2.jpg" alt="">
+                      </div>
+                      <div class="news-content px-2 py-5">
+                       <h4 style="font-weight: 700;">Incorporate comprehensive unit testing into your Flutter project to ensure best practices and reduce bugs before—not after—the app's release.
+                        </h4>
+                       <h4 style="font-size: larger; letter-spacing: 0.7px;">
+                        Interest in Flutter is at an all-time high—and it’s long overdue. Google’s open-source SDK is compatible with Android, iOS, macOS, web, Windows, and Linux. A single Flutter codebase supports them all. And unit testing is instrumental in delivering a consistent and reliable Flutter app, ensuring against errors, flaws, and defects by preemptively improving the quality of code before it is assembled.
+                        <br><br>
+                        In this tutorial, we share workflow optimizations for Flutter unit testing, demonstrate a basic Flutter unit test, then move on to more complex Flutter test cases and libraries
+                         <br><br>
+                         To demonstrate unit testing, I’ve prepared a sample Flutter project and encourage you to use and test the code at your leisure. The project uses an external API to fetch and display a list of universities that we can filter by country.
+                         <br><br>
+                         A few notes about how Flutter works: The framework facilitates testing by autoloading the flutter_test library when a project is created. The library enables Flutter to read, run, and analyze unit tests. Flutter also autocreates the test folder in which to store tests. It is critical to avoid renaming and/or moving the test folder, as this breaks its functionality and, hence, our ability to run tests. It is also essential to include _test.dart in our test file names, as this suffix is how Flutter recognizes test files.
+                          <br><br>
+                          We’ll create an organized storage space for the test files we’ll write, a system where groups of tests will have easily identifiable “homes.” In light of Flutter’s requirement to locate tests within the test folder, let’s mirror our source code’s folder structure under test. Then, when we write a test, we’ll store it in the appropriate subfolder: Just as clean socks go in the sock drawer of your dresser and folded shirts go in the shirt drawer, unit tests of Model classes go in a folder named model,
+                        </p> 
+                      </div>
+                    </div>      
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+      </div>
+
+      <!-- blog ends -->
+
+
+         <!-- footer section starts -->
+
+         <footer class="bg-dark py-5 mt-5">
+          <div class="container text-light text-center">
+            <h4>The tech blog</h4>
+            <p class="text-white-50">&copy; Copyright by Rajeev S Nair. All rights reserved.</p>
+          </div>
+        </footer>
+  
+        <!-- footer section ends -->
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/news1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+       <!-- navbar starts -->
+    
+       <nav class="navbar bg-body-tertiary d-flex container">
+
+        <!-- logo -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/logo/blog-solid.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            The tech blog
+          </a>
+
+          <!-- login and signup links -->
+          <div class="d-grid gap-2 d-md-block d-flex">
+            <a href="index.html"><button class="btn btn-primary btn-1" type="button">Back to home page</button></a>
+            <a href="signup.html"><button class="btn btn-primary btn-1" type="button">Get started</button></a>
+            <!-- <a href="index.html"><button class="btn btn-primary btn-1" type="button">Home page</button></a> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar ends -->
+
+
+       <!-- blog starts -->
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="news-items">
+                    <div class="heading">
+                        <h2 style="font-weight: 900;">Emulating React and JSX in Vanilla JS
+                        </h2>
+                        <small style="font-weight: 600;  border-radius: 2rem;" class="p-1 bg-info">Rajeev S Nair</small><br><br>
+                    </div>
+                    <div class="news-blog">
+                      <div class="news-image text-center">
+                        <img class="img-fluid"  src="./assets/images/techimg13.jpg" alt="techimg13">
+                      </div>
+                      <div class="news-content px-2 py-5">
+                      
+                       <h4 style="font-size: larger; letter-spacing: 0.7px;">
+                        <br><br>
+                        Not everybody likes JavaScript frameworks, nor are they always applicable. But even when we don't want to or can't use them, there are some parts that are handy to have. In this tutorial, Toptal Freelance JavaScript Developer Juan Carlos Arias Ambriz proposes a simple way to recapture some of the benefits of using JSX while working in vanilla JS.
+                         <br><br>
+                         I was opposed to the use of frameworks in the past. However, lately, I’ve had the experience of working with React and Angular in some of my projects. The first couple of times I opened my code editor and started writing code in Angular it felt weird and unnatural; especially after more than ten years of coding without using any frameworks. After a while, I decided to commit to learning these technologies. Very quickly one big difference became apparent: it was so easy to manipulate the DOM, so easy to adjust the order of the nodes when needed, and it didn’t take pages and pages of code to build a UI.
+                         <br><br>
+                         Although I still prefer the freedom of not being attached to a framework or an architecture, I couldn’t ignore the fact that creating DOM elements in one is much more convenient. So I started looking at ways to emulate the experience in vanilla JS. My goal is to extract some of those ideas from React and demonstrate how the same principles can be implemented in plain JavaScript (often referred to as vanilla JS) to make developer’s lives a little bit easier. To accomplish this, let’s build a simple app for browsing GitHub projects.
+                        </h4>
+                        <br><br>
+                       </p> 
+                      </div>
+                    </div>      
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+      </div>
+
+       <!-- blog ends -->
+
+
+         <!-- footer section starts -->
+
+         <footer class="bg-dark py-5 mt-5">
+          <div class="container text-light text-center">
+            <h4>The tech blog</h4>
+            <p class="text-white-50">&copy; Copyright by Rajeev S Nair. All rights reserved.</p>
+          </div>
+        </footer>
+  
+        <!-- footer section ends -->
+
+
+</body>
+</html>

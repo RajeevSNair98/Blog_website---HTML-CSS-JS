@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+       <!-- navbar starts -->
+    
+       <nav class="navbar bg-body-tertiary d-flex container">
+
+        <!-- logo -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="homepage.html">
+            <img src="./assets/logo/blog-solid.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            The tech blog
+          </a>
+
+          <!-- login and signup links -->
+          <div class="d-grid gap-2 d-md-block d-flex">
+             <a href="index.html"><button class="btn btn-primary btn-1" type="button">Back to home page</button></a>
+            <!-- <span>Hello Rajeev</span><a href=""><button class="btn btn-primary btn-1" type="button">Log out</button></a> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar ends -->
+
+
+      <!-- signup form starts -->
+
+    <div class="sign-up container  mt-1" id="signup-valid">
+      <div class="row">
+          <div class="col-12 col-sm-2 col-md-3 col-lg-4 col-xl-4">
+          </div>
+          <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-4 row-2 form-col">
+                  <h4 class="text-center d-none px-2" id="success-box"></h4>
+                    <form action="index.html"  class="container bg-dark p-4" novalidate>
+                      <div class="form-group">
+                          <h3 class="text-center">Sign Up</h3>
+                          <div class="form-group pb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        <p id="nameError" class="d-none"></p>
+                      </div>
+                      <div class="form-group pb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        <p id="emailError" class="d-none"></p>
+                      </div>
+                      <div class="form-group pb-3">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Should contain 8 digits">
+                        <p id="passwordError" class="d-none"></p>
+                      </div>
+                      <div class="form-group pb-3">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmPassword" placeholder=" Retype Password">
+                        <p id="confPasswordError" class="d-none"></p>
+                      </div>
+                      <div class="form-group pb-3">
+                        <label for="number">Phone Number</label>
+                        <input type="tel" class="form-control" id="number" placeholder=" eg : 1234567890 or 123-123-1234">
+                        <p id="phoneError" class="d-none"></p>
+                      </div>
+                        <br>
+                      <div class="text-center">
+                          <button type="submit" onclick="return validateForm()" class="btn submit-btn text-center" id="signupSubmit">Submit</button><br>
+                          <a href="signin.html">Already have an account ? Sign in</a>
+                      </div>
+                    </form> 
+                  </div>
+          <div class="col-12 col-sm-2 col-md-3 col-lg-4 col-xl-4">
+          </div>
+      </div>
+  </div>
+</div>
+
+      <!-- signup form ends -->
+
+
+      <!-- footer starts -->
+
+  <footer class="bg-dark mt-5 py-5">
+    <div class="container text-light text-center">
+      <h4>The tech blog</h4>
+      <p class="text-white-50">&copy; Copyright by Rajeev S Nair. All rights reserved.</p>
+    </div>
+  </footer>
+
+      <!-- footer ends -->
+
+
+
+    <script src="/js/signup.js"></script>
+</body>
+</html>

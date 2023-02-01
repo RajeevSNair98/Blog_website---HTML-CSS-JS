@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/news1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+       <!-- navbar starts -->
+    
+       <nav class="navbar bg-body-tertiary d-flex container">
+
+        <!-- logo -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/logo/blog-solid.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            The tech blog
+          </a>
+
+          <!-- login and signup links -->
+          <div class="d-grid gap-2 d-md-block d-flex">
+            <a href="index.html"><button class="btn btn-primary btn-1" type="button">Back to home page</button></a>
+            <a href="signup.html"><button class="btn btn-primary btn-1" type="button">Get started</button></a>
+            <!-- <a href="index.html"><button class="btn btn-primary btn-1" type="button">Home page</button></a> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar ends -->
+
+
+      <!-- blog starts -->
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="news-items">
+                    <div class="heading">
+                        <h2 style="font-weight: 900;">Styled-Components: CSS-in-JS Library for the Modern Web
+                        </h2>
+                        <small style="font-weight: 600;  border-radius: 2rem;" class="p-1 bg-info">Rajeev S Nair</small><br><br>
+                    </div>
+                    <div class="news-blog">
+                      <div class="news-image text-center">
+                        <img class="img-fluid"  src="./assets/images/techimg14.jpg" alt="techimg14">
+                      </div>
+                      <div class="news-content px-2 py-5">
+                      
+                       <h4 style="font-size: larger; letter-spacing: 0.7px;">
+                        <br><br>
+                        While preprocessors like Sass and Less have made CSS development easier, there is still a lot to be desired in this modern age of web development. In this article, Toptal Freelance JavaScript Developer Jeremy Davis explores styled-components—the niftiest CSS-in-JS library.
+                         <br><br>
+                         CSS was designed for documents, what the “old web” was expected to contain. The emergence of preprocessors like Sass or Less shows that the community needs more than what CSS offers. With web apps getting more and more complex over time, CSS’ limitations have become increasingly visible and difficult to mitigate.
+                         <br><br>
+                         Styled-components leverages the power of a complete programming language—JavaScript—and its scoping capabilities to help structure the code into components. This helps to avoid the common pitfalls of writing and maintaining CSS for large projects. A developer can describe a component’s style with no risk of side effects.
+                         <br><br>
+                         On the other hand, styled-components makes it easier to fall in the trap of strongly coupling style and logic. Max Stoiber explains how to avoid this. While the idea of separating logic and presentation is definitely not new, one might be tempted to take shortcuts when developing React components. For example, it’s easy to create a component for a validation button that handles the click action as well as the button’s style. It takes a bit more effort to split it in two components.
+                        </h4>
+                        <br><br>
+                       </p> 
+                      </div>
+                    </div>      
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+      </div>
+
+       <!-- blog ends -->
+
+
+         <!-- footer section starts -->
+
+         <footer class="bg-dark py-5 mt-5">
+          <div class="container text-light text-center">
+            <h4>The tech blog</h4>
+            <p class="text-white-50">&copy; Copyright by Rajeev S Nair. All rights reserved.</p>
+          </div>
+        </footer>
+  
+        <!-- footer section ends -->
+
+
+</body>
+</html>

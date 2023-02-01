@@ -1,0 +1,42 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+a{
+    
+    text-decoration: none;
+    list-style: none !important;
+}
+
+button{
+    border-radius: 1rem !important;
+    margin-left: 5px !important;
+    border: none;
+}
+
+/* navbar starts */
+
+.btn-1{
+    background-color: white !important;
+    color: black !important;
+    border-color: rgb(130, 199, 231) !important;
+    border-radius: 1rem !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin: 10px !important;
+}
+
+.btn-1:hover{
+    background-color:rgb(124, 198, 241) !important;
+}
+
+/* navbar ends */
+
+
+/* news section starts */
+
+.news-image img{
+    height: 300px;
+}
+
+/* news section ends */
