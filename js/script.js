@@ -21,7 +21,7 @@ let hotPick2 = document.getElementById("hotPick2");
 
 
 newsPost1.addEventListener('click',()=>{
-    window.location.href = "/news1.html";
+    window.location.href = "news1.html";
 });
 
 newsPost2.addEventListener('click',()=>{
